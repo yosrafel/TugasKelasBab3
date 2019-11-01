@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtNamaMhs"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/textview"
+            app:layout_constraintStart_toEndOf="@+id/imageViewMhs"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtNimMhs"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/textview"
+            app:layout_constraintStart_toEndOf="@+id/imageViewMhs"
+            app:layout_constraintTop_toBottomOf="@+id/txtNamaMhs" />
+
+        <TextView
+            android:id="@+id/txtCitaMhs"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/textview"
+            app:layout_constraintStart_toEndOf="@+id/imageViewMhs"
+            app:layout_constraintTop_toBottomOf="@+id/txtGenderMhs" />
+
+        <TextView
+            android:id="@+id/txtHobiMhs"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/textview"
+            app:layout_constraintStart_toEndOf="@+id/imageViewMhs"
+            app:layout_constraintTop_toBottomOf="@+id/txtCitaMhs" />
+
+        <TextView
+            android:id="@+id/txtMotoMhs"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/textview"
+            app:layout_constraintStart_toEndOf="@+id/imageViewMhs"
+            app:layout_constraintTop_toBottomOf="@+id/txtHobiMhs" />
+
+        <TextView
+            android:id="@+id/txtGenderMhs"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/textview"
+            app:layout_constraintStart_toEndOf="@+id/imageViewMhs"
+            app:layout_constraintTop_toBottomOf="@+id/txtNimMhs" />
+
+        <ImageView
+            android:id="@+id/imageViewMhs"
+            android:layout_width="89dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/adrian" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

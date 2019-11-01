@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proteintracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SettingProteinTracker"
+            android:label="@string/title_activity_setting_protein_tracker"></activity>
+        <activity android:name=".DaftarTemanActivity"></activity>
+        <activity android:name=".InClassRecyclerView"></activity>
+        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".KelolaMhsActivity">
+
+        </activity>
+        <activity android:name=".MahasiswaEditActivity" />
+        <activity android:name=".MahasiswaAddActivity" />
+        <activity android:name=".SampleList" />
+        <activity android:name=".MahasiswaActivity" />
+        <activity android:name=".Mahasiswa1Fragment" />
+        <activity android:name=".ProteinTrackerApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Table" />
+        <activity android:name=".Main3FragmentActivity" />
+        <activity android:name=".Text" />
+        <activity android:name=".Test" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

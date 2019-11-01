@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="list" type="id" />
+    <item name="item1" type="id" />
+    <item name="item2" type="id" />
+    <item name="item3" type="id" />
+    <item name="listMhs" type="id" />
+    <item name="list1" type="id" />
+    <item name="list2" type="id" />
+    <item name="list3" type="id" />
+</resources>
